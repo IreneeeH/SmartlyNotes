@@ -1,0 +1,8 @@
+# Ignore all files in folder called Extras
+Extras/
+
+# Ignore all files in node_modules
+node_modules/
+
+# Ignore file with the API key (For testing)
+.env

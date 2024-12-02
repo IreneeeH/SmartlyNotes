@@ -1,0 +1,132 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* API Key Input Field */
+input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  font-style: italic;
+  color: #999;
+}
+
+/* Textarea Styling for Notes */
+textarea {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Header and Category Styles */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Categories Section */
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Notes List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+}
+
+strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Error Message Styling */
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+}
